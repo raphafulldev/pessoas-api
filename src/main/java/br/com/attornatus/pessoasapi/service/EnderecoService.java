@@ -29,7 +29,13 @@ public class EnderecoService {
         return obj.orElseThrow(() -> new ResourceNotFoundException(id));
     }
 
+    public List<Endereco> findByPessoa(Long id) {
+        List<Endereco> obj = repository.findByPessoa(id);
+        return obj;
+    }
 
-
+    public void deletar (Long id){
+        repository.deleteById(id);
+    }
 
 }

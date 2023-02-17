@@ -1,5 +1,6 @@
 package br.com.attornatus.pessoasapi.entidade;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -17,6 +18,7 @@ public class Endereco implements Serializable {
     private Boolean enderecoPrincipal;
     @ManyToOne
     @JoinColumn(name = "pessoa.id")
+    @JsonBackReference
     private Pessoa pessoa;
 
     public Endereco() {

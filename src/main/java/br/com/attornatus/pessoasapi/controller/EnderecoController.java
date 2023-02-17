@@ -31,9 +31,21 @@ public class EnderecoController {
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<Endereco> findById (@PathVariable Long id){
+    public ResponseEntity<Endereco> findById(@PathVariable Long id) {
         Endereco pessoa = enderecoService.findById(id);
         return ResponseEntity.ok().body(pessoa);
     }
 
+    @GetMapping(value = "/pessoa/{id}")
+    public ResponseEntity<List<Endereco>> findByPessoa(@PathVariable Long id) {
+        List<Endereco> enderecos = enderecoService.findByPessoa(id);
+        return ResponseEntity.ok().body(enderecos);
+
+    }
+
+    @DeleteMapping(value = "/{id}")
+    public ResponseEntity<Void> deletar (Long id){
+        enderecoService.deletar(id);
+        return ResponseEntity.noContent().build();
+    }
 }

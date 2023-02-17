@@ -1,6 +1,9 @@
 package br.com.attornatus.pessoasapi.entidade;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
+
 
 import java.util.Date;
 import java.util.List;
@@ -13,8 +16,12 @@ public class Pessoa {
     private Long id;
     private String nome;
 
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/mm/yyyy")
     private Date dtNascimento;
+
+
     @OneToMany(mappedBy = "pessoa")
+    @JsonManagedReference
     private List<Endereco> enderecos;
 
     public Pessoa() {

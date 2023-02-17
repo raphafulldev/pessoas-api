@@ -19,6 +19,9 @@ public class PessoaService {
     @Autowired
     private PessoaRepository repository;
 
+    @Autowired
+    private EnderecoRepository enderecoRepository;
+
 
     public List<Pessoa> findAll() {
         return repository.findAll();
@@ -30,10 +33,11 @@ public class PessoaService {
 
     public Pessoa findById(Long id) {
         Optional<Pessoa> obj = repository.findById(id);
+        List<Endereco> enderecos = enderecoRepository.findByPessoa(id);
+        obj.get().setEnderecos(enderecos);
         return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 
     }
-
 
     public Pessoa update(Long id, Pessoa obj) {
         try {
@@ -50,5 +54,10 @@ public class PessoaService {
         entity.setDtNascimento(obj.getDtNascimento());
         entity.setEnderecos(obj.getEnderecos());
     }
+
+    public void deletar (Long id){
+        repository.deleteById(id);
+    }
+
 
 }
