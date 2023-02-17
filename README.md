@@ -40,7 +40,7 @@ Projeto para identificar os conhecimentos do canditato quanto às tecnologias ut
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/9.jpeg)
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/10.jpeg)
 
-## As respostas da APIforam feitas por meio do Postman utilizando o formato JSON
+## As respostas da API foram feitas por meio do Postman utilizando o formato JSON
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2010.35.29.jpeg)
 
 ## Configuração do Banco de Dados H2
