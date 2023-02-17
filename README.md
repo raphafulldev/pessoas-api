@@ -16,7 +16,7 @@ Projeto para identificar os conhecimentos do canditato quanto às tecnologias ut
 
 
 ## Foi implementado o padrão de projetos REST, visando romper a comunicação direta entre a camada de vizualização da camada de modelo de negócio.
-![](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2010.49.41.jpeg)
+![](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2011.30.46.jpeg)
 
 ## Modelo Conceitual
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/2.jpeg)
