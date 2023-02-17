@@ -1,5 +1,5 @@
 # PESSOAS API
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/raphafulldev/workshop-springboot3-jpa/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/raphafulldev/assets/blob/main/LICENSE) 
 
 # Sobre o projeto
 
