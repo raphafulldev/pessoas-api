@@ -1,4 +1,4 @@
-# Workshop Springboot3 JPA
+# PESSOAS API
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/raphafulldev/workshop-springboot3-jpa/blob/main/LICENSE) 
 
 # Sobre o projeto
