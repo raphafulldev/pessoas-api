@@ -78,7 +78,7 @@ Projeto para identificar os conhecimentos do canditato quanto às tecnologias ut
 
 ```bash
 # clonar repositório
-git clone https://github.com/raphafulldev/workshop-springboot3-jpa
+git clone https://github.com/raphafulldev/pessoas-api
 
 ```
 
