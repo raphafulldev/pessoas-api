@@ -36,12 +36,33 @@ Projeto para identificar os conhecimentos do canditato quanto às tecnologias ut
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2010.32.28.jpeg)
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2010.33.48.jpeg)
 
-## Tratamento de erros personalizados
-![Web 1](https://github.com/raphafulldev/assets/blob/main/images/9.jpeg)
-![Web 1](https://github.com/raphafulldev/assets/blob/main/images/10.jpeg)
-
+# DESAFIO JAVA 
 ## As respostas da API foram feitas por meio do Postman utilizando o formato JSON
-![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2010.35.29.jpeg)
+## Criar uma pessoa ✅
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.11.04.jpeg)
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.25.24.jpeg)
+## Editar uma pessoa ✅
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.35.37.jpeg)
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.37.32.jpeg)
+## Consultar uma pessoa ✅
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.32.52.jpeg)
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.33.46.jpeg)
+## Listar pessoas ✅
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.26.55.jpeg)
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.30.47.jpeg)
+## Criar um endereço para pessoa ✅
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.40.36.jpeg)
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.42.25.jpeg)
+## Lsitar endereços da pessoa ✅
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.44.04.jpeg)
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.55.44.jpeg)
+## Poder informar qual endereço é o principal da pessoa ✅
+### O endereço principal será definido por meio do booleano "true"
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2009.57.23.jpeg)
+
+# TESTES UNITÁRIOS
+![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-18%20at%2010.00.29.jpeg)
+
 
 ## Configuração do Banco de Dados H2
 ![Web 1](https://github.com/raphafulldev/assets/blob/main/images/WhatsApp%20Image%202023-02-17%20at%2010.39.40.jpeg)
