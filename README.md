@@ -11,8 +11,7 @@ Projeto para identificar os conhecimentos do canditato quanto às tecnologias ut
 - Configurar banco de dados de teste (H2)
 - Povoar o banco de dados
 - CRUD - Create, Retrieve, Update, Delete
-- Tratamento de exceções
-- Testes Unitários (jUnit)
+- Testes Unitários 
 
 
 ## Foi implementado o padrão de projetos REST, visando romper a comunicação direta entre a camada de vizualização da camada de modelo de negócio.
