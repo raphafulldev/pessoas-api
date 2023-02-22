@@ -44,7 +44,7 @@ public class EnderecoController {
     }
 
     @DeleteMapping(value = "/{id}")
-    public ResponseEntity<Void> deletar (Long id){
+    public ResponseEntity<Void> deletar (@PathVariable Long id){
         enderecoService.deletar(id);
         return ResponseEntity.noContent().build();
     }
