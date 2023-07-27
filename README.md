@@ -10,7 +10,7 @@ Projeto para identificar os conhecimentos do canditato quanto às tecnologias ut
 - Estruturar camadas lógicas: controller, service, repository
 - Configurar banco de dados de teste (H2)
 - Povoar o banco de dados
-- CRUD - Create, Retrieve, Update, Delete
+- CRUD - Create, Read, Update, Delete
 - Testes Unitários 
 
 
